@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import Spinner from '../layout/Spinner';
 import DashboardActions from '../dashboard/DashboardAction';
 import Experience from '../dashboard/Experience';
+import Education from '../dashboard/Education';
 import { getCurrentProfile } from '../../actions/profile';
 
 //We must have getCurrentprofile as our props for useEffect
@@ -28,6 +29,7 @@ const Dashboard = ({
         <Fragment>
           <DashboardActions />
           <Experience experience={profile.experience} />
+          <Education education={profile.education} />
         </Fragment>
       ) : (
         <Fragment>
