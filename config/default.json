@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://pecker123:pecker123@cluster0.wpcfk.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "6ae92c143f8ff8ba1a1a",
+  "githubSecret": "8a4f6d9eb67c8987500b5ab6cc6b337fca5e129e"
+}
