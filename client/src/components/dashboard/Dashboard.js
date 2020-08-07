@@ -66,4 +66,4 @@ const mapStateToProps = (state) => ({
 export default connect(mapStateToProps, { getCurrentProfile, deleteAccount })(
   Dashboard
 );
-//DeleteAccount should redirect us to homepage because we wont be auth protected anymore after deleting account
+//DeleteAccount should redirect us to signin because we wont be auth protected anymore after deleting account
