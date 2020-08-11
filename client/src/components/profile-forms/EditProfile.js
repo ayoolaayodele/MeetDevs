@@ -38,7 +38,7 @@ const EditProfile = ({
       skills: loading || !profile.skills ? '' : profile.skills,
       githubusername:
         loading || !profile.githubusername ? '' : profile.githubusername,
-      bio: loading || !profile.bio ? '' : profile.social.bio,
+      bio: loading || !profile.bio ? '' : profile.bio,
       twitter: loading || !profile.social ? '' : profile.social.twitter,
       facebook: loading || !profile.social ? '' : profile.social.facebook,
       linkedin: loading || !profile.social ? '' : profile.social.linkedin,
